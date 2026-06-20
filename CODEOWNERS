@@ -1,0 +1,4 @@
+# Code owners for the AlgoCatalyst org-wide default files (PR template, etc.).
+# These apply to every repo in the org, so a change here gets the same bar as foundation:
+# a steward must review it. Membership lives in the @AlgoCatalyst/foundation-stewards team.
+* @AlgoCatalyst/foundation-stewards
