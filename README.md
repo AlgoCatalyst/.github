@@ -12,7 +12,11 @@ never product code.
 
 - `PULL_REQUEST_TEMPLATE.md` — the default pull-request description shown when a PR is opened
   in any org repo that has no template of its own. (The `/pr` command writes its own body; this
-  is the fallback for hand-opened PRs, and it carries the `Closes #` reminder the required
-  "Verify linked issue" check depends on.)
+  is the fallback for hand-opened PRs, and it reminds the author to name the PR's ticket on one
+  line, which the required "Verify linked issue" check reads. Tickets live in Linear.)
+
+Pull requests in **this** repository name no ticket — not in the title, the branch name or the
+description. This repository is public, and Linear posts a linked ticket's title and text as a
+comment on the pull request.
 
 Managed as part of [`foundation`](https://github.com/AlgoCatalyst/foundation) (build step 5b).
